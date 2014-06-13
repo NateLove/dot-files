@@ -357,3 +357,6 @@ endfunction
 set number
 command! -bang -range=% -complete=file -nargs=* W <line1>,<line2>write<bang> <args>
 command! -bang Q quit<bang>
+command WQ wq
+command Wq wq
+
