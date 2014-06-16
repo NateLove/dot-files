@@ -1,4 +1,4 @@
-rc-files
+dot-files
 ========
 
-a collection of rc files
+a collection of dot files
