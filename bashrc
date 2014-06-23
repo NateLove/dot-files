@@ -27,7 +27,7 @@ fi
 
 function cd
 {
- builtin cd $1 && ls 
+ builtin cd "$@" && ls 
 }
 alias vi=vim
 alias pbcopy='xclip -selection clipboard'
