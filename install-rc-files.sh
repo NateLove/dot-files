@@ -7,3 +7,4 @@ rm ~/.bashrc
 fi
 
 ln -s $DIR/bashrc ~/.bashrc
+. ~/.bashrc
