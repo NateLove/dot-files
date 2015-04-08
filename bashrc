@@ -77,5 +77,6 @@ up(){
   fi
   cd $d
 }
- 
- 
+
+
+highlight () { grep --color -E "$1|$" $2 ; }
